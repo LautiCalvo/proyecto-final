@@ -164,20 +164,34 @@
 
 /*Cards Galery*/
 .cardh2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
     margin-block: 7rem 3rem;
     color: $colortitulo;
     h2{
         font-size: 5rem;
+        display: inline-block;
+        position: relative;
+    }
+    h2::before, h2::after{
+        content:"";
+        background-color: $colortitulo;
+        height: 3px;
+        width: 280px;
+        position: absolute;
+        top: 3rem;
+
+    }
+    h2::before{
+        left: -300px;
+    }
+    h2::after{
+        right: -300px;
     }
 }
 
 .cardsContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     row-gap: 10rem;
     place-items: center;
 
@@ -186,6 +200,7 @@
         border-radius: 5px;
         width: 352px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        background-color: white;
         .imgCard{
             max-width: 349.5px;
             min-height: 350px;
@@ -264,6 +279,7 @@ footer{
     background-image: url(../img/background-footer.svg);
     background-size: cover;
     padding-top: 10rem;
+    margin-top: 10rem;
     .footer__container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -367,24 +383,40 @@ footer{
 }
 
 
-/*Categorias*/
-.body__categorias{
+
+.body__pages{
     background: $maincolor;
     background: radial-gradient(circle, rgba(238,174,202,0.45281862745098034) 0%, rgba(148,187,233,0.49763655462184875) 100%);
 
+    /*Categorias*/
     .cardsCategoriasContainer{
         @include flex(column,center ,center );
         margin-block: 15rem;
-        padding-bottom: 6rem;
-        border-radius: 50px;
-        margin-inline: 22rem;
-        background: linear-gradient(90deg, rgba(94, 252, 231, 0.479) 0%, rgba(115, 110, 254, 0.534) 100%);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
         h1{
             margin-block: 2rem;
             font-size: 4rem;
             color: $colortitulo;
+            position: relative;
+            display: inline-block;
         }
+        h1::before, h1::after{
+            content:"";
+            background-color: $colortitulo;
+            height: 3px;
+            width: 280px;
+            position: absolute;
+            top: 2.6rem;
+
+        }
+        h1::before{
+            left: -300px;
+        }
+        h1::after{
+            right: -300px;
+        }
+        
+
         .cardsCategorias{
             max-width: 2000px;
             min-height: 600px;
@@ -394,6 +426,10 @@ footer{
             place-items: center;
             row-gap: 1.5rem;
             column-gap: 2.5rem;
+            padding: 5rem;
+            border-radius: 50px;
+            background: linear-gradient(90deg, rgba(94, 252, 231, 0.479) 0%, rgba(115, 110, 254, 0.534) 100%);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
             .tarjetaCategorias{
                 max-width: 500;
                 min-height: 300px;
@@ -432,4 +468,10 @@ footer{
 
     }
 
+
+    .tituloCatalogo{
+        margin-top: 25rem;
+    }
+
 }
+

@@ -156,20 +156,33 @@
 
 /*Cards Galery*/
 .cardh2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-align: center;
   margin-block: 7rem 3rem;
   color: #3c4858;
 }
 .cardh2 h2 {
   font-size: 5rem;
+  display: inline-block;
+  position: relative;
+}
+.cardh2 h2::before, .cardh2 h2::after {
+  content: "";
+  background-color: #3c4858;
+  height: 3px;
+  width: 280px;
+  position: absolute;
+  top: 3rem;
+}
+.cardh2 h2::before {
+  left: -300px;
+}
+.cardh2 h2::after {
+  right: -300px;
 }
 
 .cardsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   row-gap: 10rem;
   place-items: center;
 }
@@ -178,6 +191,7 @@
   border-radius: 5px;
   width: 352px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: white;
 }
 .cardsContainer .tarjeta .imgCard {
   max-width: 349.5px;
@@ -245,6 +259,7 @@ footer {
   background-image: url(../img/background-footer.svg);
   background-size: cover;
   padding-top: 10rem;
+  margin-top: 10rem;
 }
 footer .footer__container {
   display: grid;
@@ -335,29 +350,40 @@ footer .footer__copy p b {
   font-weight: 1000;
 }
 
-/*Categorias*/
-.body__categorias {
+.body__pages {
   background: rgb(203, 129, 178);
   background: radial-gradient(circle, rgba(238, 174, 202, 0.4528186275) 0%, rgba(148, 187, 233, 0.4976365546) 100%);
+  /*Categorias*/
 }
-.body__categorias .cardsCategoriasContainer {
+.body__pages .cardsCategoriasContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-block: 15rem;
-  padding-bottom: 6rem;
-  border-radius: 50px;
-  margin-inline: 22rem;
-  background: linear-gradient(90deg, rgba(94, 252, 231, 0.479) 0%, rgba(115, 110, 254, 0.534) 100%);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.body__categorias .cardsCategoriasContainer h1 {
+.body__pages .cardsCategoriasContainer h1 {
   margin-block: 2rem;
   font-size: 4rem;
   color: #3c4858;
+  position: relative;
+  display: inline-block;
 }
-.body__categorias .cardsCategoriasContainer .cardsCategorias {
+.body__pages .cardsCategoriasContainer h1::before, .body__pages .cardsCategoriasContainer h1::after {
+  content: "";
+  background-color: #3c4858;
+  height: 3px;
+  width: 280px;
+  position: absolute;
+  top: 2.6rem;
+}
+.body__pages .cardsCategoriasContainer h1::before {
+  left: -300px;
+}
+.body__pages .cardsCategoriasContainer h1::after {
+  right: -300px;
+}
+.body__pages .cardsCategoriasContainer .cardsCategorias {
   max-width: 2000px;
   min-height: 600px;
   display: grid;
@@ -366,8 +392,12 @@ footer .footer__copy p b {
   place-items: center;
   row-gap: 1.5rem;
   column-gap: 2.5rem;
+  padding: 5rem;
+  border-radius: 50px;
+  background: linear-gradient(90deg, rgba(94, 252, 231, 0.479) 0%, rgba(115, 110, 254, 0.534) 100%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.body__categorias .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias {
+.body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias {
   max-width: 500;
   min-height: 300px;
   border: 1px solid #999;
@@ -375,18 +405,18 @@ footer .footer__copy p b {
   background-color: lightgray;
   transition: all 0.3s;
 }
-.body__categorias .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link {
+.body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link {
   text-decoration: none;
   transition: all 0.3s;
 }
-.body__categorias .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__img {
+.body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__img {
   width: 500px;
   height: 300px;
   background-color: white;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.body__categorias .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__titulo {
+.body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__titulo {
   font-size: 2rem;
   font-weight: 900;
   color: #3c4858;
@@ -394,8 +424,11 @@ footer .footer__copy p b {
   padding-block: 1rem;
   border-top: 1px solid #999;
 }
-.body__categorias .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias:hover {
+.body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.body__pages .tituloCatalogo {
+  margin-top: 25rem;
 }
 
 /*# sourceMappingURL=style.css.map */

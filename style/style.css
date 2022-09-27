@@ -16,6 +16,11 @@
 .logo-nav {
   width: 120px;
   height: 120px;
+  transition: all 0.3s;
+}
+
+.logo-nav:hover {
+  transform: scale(0.9);
 }
 
 .navbar-link {
@@ -27,7 +32,7 @@
   transition: all 0.3s;
 }
 .navbar-link .navbar-link2:hover {
-  color: #999;
+  color: #7a7a7a;
 }
 .navbar-link .navbar-link2:focus {
   color: white;
@@ -144,10 +149,11 @@
 .title {
   color: #3c4858;
   font-size: 4rem;
+  margin-top: 8rem;
 }
 
 .subtitle {
-  color: #999;
+  color: #7a7a7a;
   font-size: 2.5rem;
   text-align: center;
   max-width: 1000px;
@@ -187,7 +193,7 @@
   place-items: center;
 }
 .cardsContainer .tarjeta {
-  border: 1px solid #999;
+  border: 1px solid #7a7a7a;
   border-radius: 5px;
   width: 352px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -200,7 +206,7 @@
   border-top-right-radius: 5px;
 }
 .cardsContainer .tarjeta .textosCards {
-  border-top: 1px solid #999;
+  border-top: 1px solid #7a7a7a;
   padding-left: 1rem;
   padding-block: 1rem;
 }
@@ -210,10 +216,11 @@
 }
 .cardsContainer .tarjeta .textosCards .cardParrafo {
   font-size: 1.5rem;
-  color: #999;
+  color: #7a7a7a;
 }
 .cardsContainer .tarjeta .textosCards .cardBtn {
   transition: all 0.3s;
+  width: 145px;
 }
 .cardsContainer .tarjeta .textosCards .cardBtn .cardBoton {
   text-decoration: none;
@@ -244,7 +251,7 @@
   margin-block: 5rem 2rem;
 }
 .vercatalogo a {
-  color: #999;
+  color: #7a7a7a;
   font-size: 2rem;
   text-decoration: none;
   transition: all 0.3s;
@@ -280,7 +287,7 @@ footer .footer__container .footer__logo__parrafo .footer__parrafo {
   font-size: 1.5rem;
   width: 70%;
   text-align: center;
-  color: #999;
+  color: #7a7a7a;
 }
 footer .footer__container .footer__paginas {
   display: flex;
@@ -296,7 +303,7 @@ footer .footer__container .footer__paginas .footer__h3 {
 }
 footer .footer__container .footer__paginas a {
   text-decoration: none;
-  color: #999;
+  color: #7a7a7a;
   font-size: 1.3rem;
   transition: all 0.3s;
 }
@@ -313,7 +320,7 @@ footer .footer__container .footer__puntodeventa .footer__h3 a {
   transition: all 0.3s;
 }
 footer .footer__container .footer__puntodeventa .footer__h3 a:hover {
-  color: #999;
+  color: #7a7a7a;
 }
 footer .footer__container .footer__redes {
   display: flex;
@@ -328,7 +335,7 @@ footer .footer__container .footer__redes .footer__h3 {
 }
 footer .footer__container .footer__redes a {
   text-decoration: none;
-  color: #999;
+  color: #7a7a7a;
   font-size: 130%;
   transition: all 0.3s;
 }
@@ -341,7 +348,7 @@ footer .footer__copy {
   margin: auto;
   text-align: center;
   padding: 0px 40px;
-  color: #999;
+  color: #7a7a7a;
   font-size: 1.3rem;
 }
 footer .footer__copy p b {
@@ -354,6 +361,9 @@ footer .footer__copy p b {
   background: rgb(203, 129, 178);
   background: radial-gradient(circle, rgba(238, 174, 202, 0.4528186275) 0%, rgba(148, 187, 233, 0.4976365546) 100%);
   /*Categorias*/
+  /*Productos*/
+  /*Formulario Contacto*/
+  /*Nosotros*/
 }
 .body__pages .cardsCategoriasContainer {
   display: flex;
@@ -400,7 +410,7 @@ footer .footer__copy p b {
 .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias {
   max-width: 500;
   min-height: 300px;
-  border: 1px solid #999;
+  border: 1px solid #7a7a7a;
   border-radius: 20px;
   background-color: lightgray;
   transition: all 0.3s;
@@ -422,7 +432,7 @@ footer .footer__copy p b {
   color: #3c4858;
   text-align: center;
   padding-block: 1rem;
-  border-top: 1px solid #999;
+  border-top: 1px solid #7a7a7a;
 }
 .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -430,5 +440,164 @@ footer .footer__copy p b {
 .body__pages .tituloCatalogo {
   margin-top: 25rem;
 }
+.body__pages .form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.body__pages .form__container h2 {
+  color: #3c4858;
+  font-size: 5rem;
+}
+.body__pages .form__container p {
+  color: #7a7a7a;
+  font-size: 2.5rem;
+  max-width: 50rem;
+  text-align: center;
+}
+.body__pages .form__container form {
+  padding: 5rem;
+  border-radius: 50px;
+  background: linear-gradient(90deg, rgba(94, 252, 231, 0.253) 0%, rgba(115, 110, 254, 0.151) 100%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin-top: 10rem;
+}
+.body__pages .form__container form .form__name__gmail .form__name {
+  width: 25rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  border: none;
+  padding-inline: 1rem;
+}
+.body__pages .form__container form .form__name__gmail .form__gmail {
+  width: 25rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  padding-inline: 1rem;
+}
+.body__pages .form__container form .form__mensaje {
+  width: 52.2rem;
+  min-height: 25.2rem;
+  max-height: 25.2rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+}
+.body__pages .form__container form .form__enviar {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 1.8rem;
+  border-radius: 5px;
+  border: 1px solid #0a53be;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #0a53be;
+  transition: all 0.3s;
+}
+.body__pages .form__container form .form__enviar:hover {
+  transform: scale(1.05);
+}
+.body__pages .form__container form .form__enviar:focus {
+  color: #0a53be;
+  background-color: white;
+}
+.body__pages .nosotrosContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  grid-gap: 5rem;
+  margin-block: 15rem;
+  color: #3c4858;
+}
+.body__pages .nosotrosContainer img {
+  max-width: 50rem;
+  min-height: 600px;
+}
+.body__pages .nosotrosContainer .nosotrosTextos {
+  min-height: 430px;
+}
+.body__pages .nosotrosContainer .nosotrosTextos h2 {
+  font-size: 4rem;
+}
+.body__pages .nosotrosContainer .nosotrosTextos h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.body__pages .nosotrosContainer .nosotrosTextos p {
+  font-size: 1.5rem;
+  color: #7a7a7a;
+  max-width: 45rem;
+}
+.body__pages .nosotrosContainer .nosotrosTextos p b {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #3c4858;
+}
+.body__pages .horarios1 {
+  grid-area: horarios1;
+}
+.body__pages .horarios2 {
+  grid-area: horarios2;
+}
+.body__pages .horarios3 {
+  grid-area: horarios3;
+}
+.body__pages .horarios4 {
+  grid-area: horarios4;
+}
+.body__pages .horarios5 {
+  grid-area: horarios5;
+}
+.body__pages .horarios6 {
+  grid-area: horarios6;
+}
+.body__pages .horarios7 {
+  grid-area: horarios7;
+}
+.body__pages .nosotros__local {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.body__pages .nosotros__local iframe {
+  width: 45rem;
+  min-height: 35rem;
+}
+.body__pages .nosotros__local .nosotros__horarios {
+  width: 50rem;
+  height: 35rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: ".......... titulo ..........." "horarios1 horarios2 horarios3" "horarios4 horarios5 horarios6" "......... horarios7 .........";
+  place-items: center;
+  row-gap: 2rem;
+  color: #3c4858;
+}
+.body__pages .nosotros__local .nosotros__horarios .horario__titulo {
+  grid-area: titulo;
+  font-size: 4rem;
+}
+.body__pages .nosotros__local .nosotros__horarios .horarios h3 {
+  font-size: 2rem;
+}
+.body__pages .nosotros__local .nosotros__horarios .horarios p {
+  font-size: 1.5rem;
+  color: #7a7a7a;
+}
+
+/*Responsive / Media Queries*/
 
 /*# sourceMappingURL=style.css.map */

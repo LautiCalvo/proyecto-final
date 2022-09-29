@@ -24,11 +24,12 @@
             <a class="navbar-brand" href="../index.html">
               <img class="logo-nav" src="../img/soshogarlogo.png" alt="Logo Inicio" title="Inicio" >
             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
           <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div class="navbar-nav navbar-link">
               <a class="nav-link active navbar-link2" aria-current="page" href="./categorias.html">Categorias</a>
@@ -56,9 +57,10 @@
   
             <input type="email" name="email" class="form__gmail" placeholder="Correo Electronico" required>
          </div>
-         
+         <div class="form__mensaje__container">
         <textarea placeholder="Mensaje" class="form__mensaje" name="message" rows="10" required></textarea>
-     <div>
+      </div>
+     <div class="form__enviar__container ">
       <button type="submit" class="form__enviar ">Enviar</button>
      </div>
      <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/contacto.html">

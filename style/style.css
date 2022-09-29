@@ -24,9 +24,9 @@
 }
 
 .navbar-link {
-  font-size: 2.3rem;
-  gap: 10rem;
-  grid-gap: 10rem;
+  font-size: 1.8rem;
+  gap: 7rem;
+  grid-gap: 7rem;
 }
 .navbar-link .navbar-link2 {
   transition: all 0.3s;
@@ -44,6 +44,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  column-gap: 5rem;
   place-items: center;
 }
 .subheader .subheader__text {
@@ -52,23 +53,23 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 60rem;
-  margin-top: 5rem;
+  max-width: 50rem;
+  margin-top: 3rem;
 }
 .subheader .subheader__text .subheader__h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .subheader .subheader__text .subheader__h1 .span {
-  font-size: 6rem;
-  font-weight: 900;
+  font-size: 5rem;
+  font-weight: 700;
   color: rgb(203, 129, 178);
   text-shadow: 4px 3px 0 rgba(203, 129, 178, 0.329);
 }
 .subheader .subheader__text .subheader__p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .subheader .subheader__text .subheader__a {
-  font-size: 2rem;
+  font-size: 1.7rem;
   background-color: rgb(203, 129, 178);
   text-decoration: none;
   color: aliceblue;
@@ -88,7 +89,7 @@
 .subheader .subheader__img {
   min-height: 512px;
   max-width: 512px;
-  margin-left: 15rem;
+  margin-left: 20rem;
   margin-top: 5rem;
   position: relative;
 }
@@ -116,8 +117,8 @@
   bottom: 30px;
   right: 30px;
   background-color: rgb(37, 211, 102);
-  width: 80px;
-  height: 80px;
+  width: 4rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +132,7 @@
   margin-top: 5px;
   text-decoration: none;
   color: white;
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 
 .botonwsp:hover {
@@ -148,26 +149,27 @@
 /*Titulos y Parrafos*/
 .title {
   color: #3c4858;
-  font-size: 4rem;
-  margin-top: 8rem;
+  font-size: 3rem;
+  margin-top: 6rem;
+  text-align: center;
 }
 
 .subtitle {
   color: #7a7a7a;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin-top: 2rem;
 }
 
 /*Cards Galery*/
 .cardh2 {
   text-align: center;
-  margin-block: 7rem 3rem;
+  margin-block: 6rem 2.5rem;
   color: #3c4858;
 }
 .cardh2 h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   display: inline-block;
   position: relative;
 }
@@ -177,7 +179,7 @@
   height: 3px;
   width: 280px;
   position: absolute;
-  top: 3rem;
+  top: 2rem;
 }
 .cardh2 h2::before {
   left: -300px;
@@ -189,19 +191,19 @@
 .cardsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 10rem;
+  row-gap: 8rem;
   place-items: center;
 }
 .cardsContainer .tarjeta {
   border: 1px solid #7a7a7a;
   border-radius: 5px;
-  width: 352px;
+  width: 280px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   background-color: white;
 }
 .cardsContainer .tarjeta .imgCard {
-  max-width: 349.5px;
-  min-height: 350px;
+  max-width: 278px;
+  min-height: 280px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -211,20 +213,20 @@
   padding-block: 1rem;
 }
 .cardsContainer .tarjeta .textosCards .cardtitulo {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #3c4858;
 }
 .cardsContainer .tarjeta .textosCards .cardParrafo {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #7a7a7a;
 }
 .cardsContainer .tarjeta .textosCards .cardBtn {
   transition: all 0.3s;
-  width: 145px;
+  width: 118px;
 }
 .cardsContainer .tarjeta .textosCards .cardBtn .cardBoton {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border: 1px solid #a72abd;
   padding: 0.5rem;
   border-radius: 0.375rem;
@@ -248,11 +250,11 @@
 .vercatalogo {
   display: flex;
   justify-content: center;
-  margin-block: 5rem 2rem;
+  margin-block: 4rem;
 }
 .vercatalogo a {
   color: #7a7a7a;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -296,7 +298,7 @@ footer .footer__container .footer__paginas {
   align-items: center;
 }
 footer .footer__container .footer__paginas .footer__h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 5%;
   color: #3c4858;
   margin-bottom: 1rem;
@@ -304,7 +306,7 @@ footer .footer__container .footer__paginas .footer__h3 {
 footer .footer__container .footer__paginas a {
   text-decoration: none;
   color: #7a7a7a;
-  font-size: 1.3rem;
+  font-size: 1rem;
   transition: all 0.3s;
 }
 footer .footer__container .footer__paginas a:hover {
@@ -312,7 +314,7 @@ footer .footer__container .footer__paginas a:hover {
   transform: scale(1.02);
 }
 footer .footer__container .footer__puntodeventa .footer__h3 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 footer .footer__container .footer__puntodeventa .footer__h3 a {
   text-decoration: none;
@@ -326,17 +328,18 @@ footer .footer__container .footer__redes {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: none;
 }
 footer .footer__container .footer__redes .footer__h3 {
   text-decoration: none;
-  font-size: 200%;
+  font-size: 1.5rem;
   color: #3c4858;
   margin-bottom: 8%;
 }
 footer .footer__container .footer__redes a {
   text-decoration: none;
   color: #7a7a7a;
-  font-size: 130%;
+  font-size: 1rem;
   transition: all 0.3s;
 }
 footer .footer__container .footer__redes a:hover {
@@ -347,13 +350,13 @@ footer .footer__copy {
   max-width: 1200px;
   margin: auto;
   text-align: center;
-  padding: 0px 40px;
+  padding: 1px 40px;
   color: #7a7a7a;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 footer .footer__copy p b {
   color: #3c4858;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 1000;
 }
 
@@ -370,11 +373,11 @@ footer .footer__copy p b {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-block: 15rem;
+  margin-block: 5rem 15rem;
 }
 .body__pages .cardsCategoriasContainer h1 {
   margin-block: 2rem;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #3c4858;
   position: relative;
   display: inline-block;
@@ -385,7 +388,7 @@ footer .footer__copy p b {
   height: 3px;
   width: 280px;
   position: absolute;
-  top: 2.6rem;
+  top: 2rem;
 }
 .body__pages .cardsCategoriasContainer h1::before {
   left: -300px;
@@ -408,8 +411,8 @@ footer .footer__copy p b {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias {
-  max-width: 500;
-  min-height: 300px;
+  max-width: 400px;
+  min-height: 250px;
   border: 1px solid #7a7a7a;
   border-radius: 20px;
   background-color: lightgray;
@@ -420,15 +423,15 @@ footer .footer__copy p b {
   transition: all 0.3s;
 }
 .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__img {
-  width: 500px;
-  height: 300px;
+  width: 350px;
+  height: 200px;
   background-color: white;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__titulo {
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 800;
   color: #3c4858;
   text-align: center;
   padding-block: 1rem;
@@ -438,7 +441,7 @@ footer .footer__copy p b {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .body__pages .tituloCatalogo {
-  margin-top: 25rem;
+  margin-top: 15rem;
 }
 .body__pages .form__container {
   display: flex;
@@ -449,16 +452,17 @@ footer .footer__copy p b {
 }
 .body__pages .form__container h2 {
   color: #3c4858;
-  font-size: 5rem;
+  font-size: 3.5rem;
+  text-align: center;
 }
 .body__pages .form__container p {
   color: #7a7a7a;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   max-width: 50rem;
   text-align: center;
 }
 .body__pages .form__container form {
-  padding: 5rem;
+  padding: 3.5rem;
   border-radius: 50px;
   background: linear-gradient(90deg, rgba(94, 252, 231, 0.253) 0%, rgba(115, 110, 254, 0.151) 100%);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -466,39 +470,39 @@ footer .footer__copy p b {
 }
 .body__pages .form__container form .form__name__gmail .form__name {
   width: 25rem;
-  height: 3rem;
-  font-size: 1.5rem;
-  margin-right: 2rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  margin-right: 1.5rem;
   border-radius: 5px;
   border: none;
-  padding-inline: 1rem;
+  padding-inline: 0.5rem;
 }
 .body__pages .form__container form .form__name__gmail .form__gmail {
   width: 25rem;
-  height: 3rem;
-  font-size: 1.5rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
   border-radius: 5px;
   border: none;
   padding-inline: 1rem;
 }
 .body__pages .form__container form .form__mensaje {
-  width: 52.2rem;
-  min-height: 25.2rem;
-  max-height: 25.2rem;
-  margin-top: 2rem;
-  font-size: 1.5rem;
+  width: 51.8rem;
+  min-height: 20rem;
+  max-height: 20rem;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
   border-radius: 5px;
   border: none;
-  padding-inline: 1rem;
-  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  padding-block: 0.5rem;
 }
 .body__pages .form__container form .form__enviar {
-  width: 10rem;
-  height: 3rem;
-  margin-top: 1.8rem;
+  width: 8rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
   border-radius: 5px;
   border: 1px solid #0a53be;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
   background-color: #0a53be;
   transition: all 0.3s;
@@ -521,27 +525,27 @@ footer .footer__copy p b {
   color: #3c4858;
 }
 .body__pages .nosotrosContainer img {
-  max-width: 50rem;
-  min-height: 600px;
+  max-width: 35rem;
+  min-height: 400px;
 }
 .body__pages .nosotrosContainer .nosotrosTextos {
   min-height: 430px;
 }
 .body__pages .nosotrosContainer .nosotrosTextos h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .body__pages .nosotrosContainer .nosotrosTextos h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 3rem;
 }
 .body__pages .nosotrosContainer .nosotrosTextos p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #7a7a7a;
   max-width: 45rem;
 }
 .body__pages .nosotrosContainer .nosotrosTextos p b {
-  font-size: 1.8rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 800;
   color: #3c4858;
 }
 .body__pages .horarios1 {
@@ -572,32 +576,556 @@ footer .footer__copy p b {
   align-items: center;
 }
 .body__pages .nosotros__local iframe {
-  width: 45rem;
-  min-height: 35rem;
+  width: 38rem;
+  min-height: 28rem;
 }
 .body__pages .nosotros__local .nosotros__horarios {
-  width: 50rem;
-  height: 35rem;
+  width: 45rem;
+  height: 30rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: ".......... titulo ..........." "horarios1 horarios2 horarios3" "horarios4 horarios5 horarios6" "......... horarios7 .........";
   place-items: center;
-  row-gap: 2rem;
+  row-gap: 1.5rem;
   color: #3c4858;
 }
 .body__pages .nosotros__local .nosotros__horarios .horario__titulo {
   grid-area: titulo;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 .body__pages .nosotros__local .nosotros__horarios .horarios h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .body__pages .nosotros__local .nosotros__horarios .horarios p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #7a7a7a;
 }
 
 /*Responsive / Media Queries*/
+@media screen and (max-width: 1600px) {
+  .navbar-link {
+    gap: 4rem;
+    grid-gap: 4rem;
+  }
+  footer .footer__container .footer__logo__parrafo .footer__parrafo {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar-link {
+    font-size: 1.6rem;
+    grid-gap: 3rem;
+    gap: 3rem;
+  }
+  .subheader {
+    column-gap: 3rem;
+  }
+  .subheader .subheader__text .subheader__h1 .span {
+    font-size: 4rem;
+    font-weight: 600;
+    max-width: 40rem;
+  }
+  .subheader .subheader__text .subheader__p {
+    font-size: 1rem;
+  }
+  .subheader .subheader__text .subheader__a {
+    font-size: 1.3rem;
+  }
+  .subheader .subheader__img {
+    min-height: 400px;
+    max-width: 400px;
+  }
+  .subheader .subheader__img img {
+    min-height: 400px;
+    max-width: 400px;
+  }
+  .botonwsp {
+    bottom: 20px;
+    right: 20px;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .botonwsp a {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .cardh2 h2 {
+    font-size: 2.5rem;
+  }
+  .cardh2 h2::before, .cardh2 h2::after {
+    top: 1.6rem;
+  }
+  footer .footer__container .footer__logo__parrafo .footer__logo {
+    max-width: 110px;
+  }
+  .body__pages .cardsCategoriasContainer h1 {
+    font-size: 2.5rem;
+  }
+  .body__pages .cardsCategoriasContainer h1::before, .body__pages .cardsCategoriasContainer h1::after {
+    top: 1.6rem;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias {
+    row-gap: 1rem;
+    column-gap: 2rem;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias {
+    max-width: 350px;
+    min-height: 200px;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__img {
+    width: 300px;
+    height: 180px;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias .tarjetaCategorias .tarjeta__link .tarjeta__titulo {
+    font-size: 1.3rem;
+  }
+  .body__pages .nosotrosContainer {
+    gap: 4rem;
+    grid-gap: 4rem;
+    margin-block: 8rem;
+  }
+  .body__pages .nosotrosContainer img {
+    max-width: 30rem;
+    min-height: 300px;
+  }
+  .body__pages .nosotrosContainer .nosotrosTextos {
+    min-height: 430px;
+  }
+  .body__pages .nosotrosContainer .nosotrosTextos h2 {
+    font-size: 2.5rem;
+  }
+  .body__pages .nosotrosContainer .nosotrosTextos h3 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  .body__pages .nosotrosContainer .nosotrosTextos p {
+    font-size: 1rem;
+    max-width: 40rem;
+  }
+  .body__pages .nosotrosContainer .nosotrosTextos p b {
+    font-size: 1.3rem;
+  }
+  .body__pages .nosotros__local iframe {
+    width: 29rem;
+    min-height: 21rem;
+    margin-right: 1rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios {
+    width: 40rem;
+    height: 25rem;
+    row-gap: 1rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horario__titulo {
+    font-size: 2rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horarios h3 {
+    font-size: 1.3rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horarios p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navbar-link {
+    font-size: 1.35rem;
+    grid-gap: 2rem;
+    gap: 2rem;
+  }
+  .logo-nav {
+    width: 100px;
+    height: 100px;
+  }
+  .subheader {
+    column-gap: 3rem;
+  }
+  .subheader .subheader__text .subheader__a {
+    font-size: 1.4rem;
+    width: 15rem;
+  }
+  .cardsContainer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+  }
+  footer {
+    padding-top: 5rem;
+    margin-top: 5rem;
+  }
+  footer .footer__container .footer__logo__parrafo .footer__logo {
+    max-width: 110px;
+  }
+  footer .footer__container .footer__logo__parrafo .footer__parrafo {
+    font-size: 1.1rem;
+  }
+  footer .footer__container .footer__paginas .footer_h3 {
+    font-size: 1.3rem;
+  }
+  footer .footer__container .footer__paginas a {
+    font-size: 0.8rem;
+  }
+  footer .footer__puntodeventa .footer_h3 {
+    font-size: 1.3rem;
+  }
+  footer .footer__redes .footer_h3 {
+    font-size: 1.3rem;
+  }
+  footer .footer__redes a {
+    font-size: 0.8rem;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2rem;
+  }
+  .body__pages .form__container h2 {
+    font-size: 3rem;
+  }
+  .body__pages .form__container p {
+    font-size: 1.3;
+    max-width: 40rem;
+  }
+  .body__pages .form__container form {
+    padding: 2.5rem;
+  }
+  .body__pages .form__container form .form__name__gmail {
+    text-align: center;
+  }
+  .body__pages .form__container form .form__name__gmail .form__name {
+    font-size: 1.1rem;
+    width: 20rem;
+    height: 2.3rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__gmail {
+    font-size: 1.1rem;
+    width: 20rem;
+    height: 2.3rem;
+  }
+  .body__pages .form__container form .form__mensaje__container {
+    text-align: center;
+  }
+  .body__pages .form__container form .form__mensaje__container .form__mensaje {
+    font-size: 1.1rem;
+    width: 41.8rem;
+    min-height: 15rem;
+    max-height: 15rem;
+  }
+  .body__pages .form__container form .form__enviar__container .form__enviar {
+    font-size: 1.2rem;
+    width: 7rem;
+    height: 2.3rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-link {
+    text-align: end;
+    gap: 1rem;
+    margin-right: 8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-link {
+    margin-right: 1rem;
+  }
+  .subheader {
+    column-gap: 2rem;
+  }
+  .subheader .subheader__text {
+    margin-top: 0rem;
+  }
+  .subheader .subheader__text .subheader__h1 {
+    font-size: 2.5rem;
+  }
+  .subheader .subheader__text .subheader__h1 .span {
+    font-size: 3rem;
+  }
+  .subheader .subheader__img {
+    min-height: 320px;
+    max-width: 320px;
+  }
+  .subheader .subheader__img img {
+    min-height: 320px;
+    max-width: 320px;
+  }
+  .title {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+  }
+  .cardh2 h2 {
+    font-size: 2rem;
+  }
+  .cardh2 h2::before, .cardh2 h2::after {
+    top: 1.2rem;
+    width: 150px;
+  }
+  .cardh2 h2::before {
+    left: -160px;
+  }
+  .cardh2 h2::after {
+    right: -160px;
+  }
+  footer .footer__container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .body__pages .cardsCategoriasContainer h1 {
+    font-size: 2rem;
+  }
+  .body__pages .cardsCategoriasContainer h1::before, .body__pages .cardsCategoriasContainer h1::after {
+    top: 1.2rem;
+    width: 150px;
+  }
+  .body__pages .cardsCategoriasContainer h1::before {
+    left: -160px;
+  }
+  .body__pages .cardsCategoriasContainer h1::after {
+    right: -160px;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias {
+    padding: 2rem;
+  }
+  .body__pages .nosotrosContainer {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    grid-gap: 1rem;
+    margin-block: 3rem 8rem;
+  }
+  .body__pages .nosotrosContainer img {
+    max-width: 40rem;
+  }
+  .body__pages .nosotrosContainer .nosotrosTextos {
+    text-align: center;
+  }
+  .body__pages .nosotros__local {
+    flex-direction: column;
+  }
+  .body__pages .nosotros__local iframe {
+    width: 40rem;
+    min-height: 25rem;
+    margin-inline: 1rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios {
+    width: 40rem;
+    height: 25rem;
+    row-gap: 1rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horario__titulo {
+    font-size: 2rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horarios h3 {
+    font-size: 1.3rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horarios p {
+    font-size: 1rem;
+  }
+  .body__pages .form__container form {
+    padding: 1.5rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__name {
+    width: 17rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__gmail {
+    width: 17rem;
+  }
+  .body__pages .form__container form .form__mensaje__container .form__mensaje {
+    width: 35.8rem;
+  }
+  .body__pages .form__container form .form__enviar__container {
+    width: 11rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subheader {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .subheader .subheader__img {
+    display: none;
+  }
+  .subtitle {
+    max-width: 500px;
+  }
+  .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .body__pages .nosotrosContainer img {
+    max-width: 30rem;
+  }
+  .body__pages .nosotrosContainer .nosotrosTextos p {
+    max-width: 25rem;
+  }
+  .body__pages .nosotros__local {
+    flex-direction: column;
+  }
+  .body__pages .nosotros__local iframe {
+    width: 35rem;
+    min-height: 25rem;
+    margin-inline: 0rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios {
+    width: 30rem;
+    height: 25rem;
+    row-gap: 1rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horario__titulo {
+    font-size: 2rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horarios h3 {
+    font-size: 1.3rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios .horarios p {
+    font-size: 1rem;
+  }
+  .body__pages .form__container p {
+    max-width: 31.8rem;
+  }
+  .body__pages .form__container form {
+    padding: 1.5rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__name {
+    width: 15rem;
+    padding: 2px 3px;
+  }
+  .body__pages .form__container form .form__name__gmail .form__gmail {
+    width: 15rem;
+    padding: 2px 3px;
+  }
+  .body__pages .form__container form .form__mensaje__container .form__mensaje {
+    width: 31.8rem;
+    padding: 2px 3px;
+  }
+  .body__pages .form__container form .form__enviar__container {
+    width: 5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardh2 h2::before, .cardh2 h2::after {
+    width: 100px;
+  }
+  .cardh2 h2::before {
+    left: -110px;
+  }
+  .cardh2 h2::after {
+    right: -110px;
+  }
+  .body__pages .cardsCategoriasContainer h1::before, .body__pages .cardsCategoriasContainer h1::after {
+    width: 100px;
+  }
+  .body__pages .cardsCategoriasContainer h1::before {
+    left: -110px;
+  }
+  .body__pages .cardsCategoriasContainer h1::after {
+    right: -110px;
+  }
+  .body__pages .nosotrosContainer img {
+    max-width: 28rem;
+  }
+  .body__pages .nosotros__local iframe {
+    width: 28rem;
+    min-height: 28rem;
+  }
+  .body__pages .form__container h2 {
+    max-width: 25rem;
+  }
+  .body__pages .form__container p {
+    max-width: 25rem;
+  }
+  .body__pages .form__container form .form__name__gmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__name {
+    width: 25rem;
+    margin-right: 0rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__gmail {
+    width: 25rem;
+  }
+  .body__pages .form__container form .form__mensaje__container .form__mensaje {
+    width: 25rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .cardh2 h2::before, .cardh2 h2::after {
+    width: 45px;
+  }
+  .cardh2 h2::before {
+    left: -50px;
+  }
+  .cardh2 h2::after {
+    right: -50px;
+  }
+  footer .footer__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .body__pages .cardsCategoriasContainer h1::before, .body__pages .cardsCategoriasContainer h1::after {
+    width: 45px;
+  }
+  .body__pages .cardsCategoriasContainer h1::before {
+    left: -50px;
+  }
+  .body__pages .cardsCategoriasContainer h1::after {
+    right: -50px;
+  }
+  .body__pages .cardsCategoriasContainer .cardsCategorias {
+    padding: 0.5rem;
+    border-radius: 20px;
+  }
+  .body__pages .nosotrosContainer img {
+    max-width: 20rem;
+  }
+  .body__pages .nosotros__local iframe {
+    width: 20rem;
+    min-height: 20rem;
+  }
+  .body__pages .nosotros__local .nosotros__horarios {
+    width: 20re18;
+  }
+  .body__pages .form__container h2 {
+    max-width: 18rem;
+  }
+  .body__pages .form__container p {
+    max-width: 18rem;
+  }
+  .body__pages .form__container form {
+    padding: 0.3rem;
+    border-radius: 10px;
+  }
+  .body__pages .form__container form .form__name__gmail {
+    gap: 0.5rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__name {
+    width: 17rem;
+    margin-right: 0rem;
+  }
+  .body__pages .form__container form .form__name__gmail .form__gmail {
+    width: 17rem;
+  }
+  .body__pages .form__container form .form__mensaje__container .form__mensaje {
+    width: 17rem;
+    margin-top: 0.5rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

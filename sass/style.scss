@@ -230,10 +230,10 @@
 
             .cardBtn{
                 transition: all .3s;
-                width: 118px;
+                width: 120px;
                 .cardBoton{
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     border: 1px solid #a72abd;
                     padding: 0.5rem;
                     border-radius: 0.375rem;
@@ -1315,14 +1315,14 @@ footer{
 @media screen and (max-width:360px){
     .cardh2{
         h2::before, h2::after{
-            width: 45px;
+            width: 30px;
     
         }
         h2::before{
-            left: -50px;
+            left: -35px;
         }
         h2::after{
-            right: -50px;
+            right: -35px;
         }
 
     }
@@ -1335,14 +1335,14 @@ footer{
     .body__pages{
         .cardsCategoriasContainer{
             h1::before, h1::after{
-                width: 45px;
+                width: 30px;
         
             }
             h1::before{
-                left: -50px;
+                left: -35px;
             }
             h1::after{
-                right: -50px;
+                right: -35px;
             }
             .cardsCategorias{
                 padding: 0.5rem;
@@ -1371,7 +1371,7 @@ footer{
                 
             }
             .nosotros__horarios{
-                width: 20re18
+                width: 20rem;
             }
             
         }

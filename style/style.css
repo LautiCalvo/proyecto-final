@@ -222,11 +222,11 @@
 }
 .cardsContainer .tarjeta .textosCards .cardBtn {
   transition: all 0.3s;
-  width: 118px;
+  width: 120px;
 }
 .cardsContainer .tarjeta .textosCards .cardBtn .cardBoton {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 1px solid #a72abd;
   padding: 0.5rem;
   border-radius: 0.375rem;
@@ -1067,26 +1067,26 @@ footer .footer__copy p b {
 }
 @media screen and (max-width: 360px) {
   .cardh2 h2::before, .cardh2 h2::after {
-    width: 45px;
+    width: 30px;
   }
   .cardh2 h2::before {
-    left: -50px;
+    left: -35px;
   }
   .cardh2 h2::after {
-    right: -50px;
+    right: -35px;
   }
   footer .footer__container {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   .body__pages .cardsCategoriasContainer h1::before, .body__pages .cardsCategoriasContainer h1::after {
-    width: 45px;
+    width: 30px;
   }
   .body__pages .cardsCategoriasContainer h1::before {
-    left: -50px;
+    left: -35px;
   }
   .body__pages .cardsCategoriasContainer h1::after {
-    right: -50px;
+    right: -35px;
   }
   .body__pages .cardsCategoriasContainer .cardsCategorias {
     padding: 0.5rem;
@@ -1100,7 +1100,7 @@ footer .footer__copy p b {
     min-height: 20rem;
   }
   .body__pages .nosotros__local .nosotros__horarios {
-    width: 20re18;
+    width: 20rem;
   }
   .body__pages .form__container h2 {
     max-width: 18rem;
